@@ -37,7 +37,7 @@ internal class Program
                 Interlocked.Increment(ref winners);
         });
 
-        Console.WriteLine($"Threads that won the initialization: {winners}");
+        Console.WriteLine($"Calls that won the initialization: {winners}");
 
         var guardedAccount = new Account
         {
